@@ -1,6 +1,6 @@
 {
     "name": "ts-auto-mock",
-    "version": "3.5.0",
+    "version": "3.5.1",
     "description": "Typescript transformer to unlock automatic mock creation for interfaces and classes",
     "scripts": {
         "build": "npm run build:modules && npm run build:transformer",
@@ -101,7 +101,7 @@
     "dependencies": {
         "lodash-es": "^4.17.21",
         "micromatch": "^4.0.4",
-        "winston": "^3.3.3"
+        "winston": "^3.4.0"
     },
     "peerDependencies": {
         "typescript": "^4.X.X"
